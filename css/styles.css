@@ -65,6 +65,11 @@ body {
   list-style: none;
 }
 
+.border-container {
+  border: 1px solid #E7E9FC;
+}
+
+
 /*----------HEADER---------*/
 
 .header {
@@ -75,6 +80,7 @@ body {
 .header-container {
   display: flex;
   align-items: center;
+
 }
 
 .header-navigation {
@@ -192,11 +198,15 @@ body {
 .advantages {
   background-color: var(--hero-color);
   padding-top: 120px;
-  padding-bottom: 120px;
+}
+
+.advantages-item {
+ width: calc((100% - 24px*3) / 4);
 }
 
 .head-list {
   display: flex;
+  gap: 24px;
 }
 
 .advantages-subtitle {
@@ -211,6 +221,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 8px;
 }
 
 /*----------Team---------*/
@@ -323,6 +334,16 @@ body {
   cursor: pointer;
 }
 
+/* -----Projects----- */
+
+.projects-list {
+  display: flex;
+  gap: 24px;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  justify-content: center;
+}
+
 .portfolio-item-link {
   color: var(--item-color);
   text-align: center;
@@ -334,6 +355,8 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   background-color: var(--background-color);
+  border: #E7E9FC;
+  padding: 12px 24px;
 }
 
 .portfolio-item-link:hover,
@@ -351,6 +374,9 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 .logo-info {
   color: var(--address-color);
@@ -358,4 +384,18 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  padding-bottom: 120px;
+}
+
+.projects-content {
+  padding-bottom: 32px;
 }
