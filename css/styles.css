@@ -240,7 +240,8 @@ body {
 
 .our-team {
   background-color: var(--background-color);
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team {
@@ -307,6 +308,11 @@ body {
 
 /*----------Portfolio---------*/
 
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .head-list-item:hover,
 .head-list-item:focus {
   color: var(--item-color);
@@ -337,8 +343,7 @@ body {
 .projects-list {
   display: flex;
   gap: 24px;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   justify-content: center;
 }
 
@@ -353,14 +358,16 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   background-color: var(--background-color);
-  border: #e7e9fc;
+  border: 1px solid #e7e9fc;
   padding: 12px 24px;
+  border-radius: 4px;
 }
 
 .portfolio-item-link:hover,
 .portfolio-item-link:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent
 }
 
 .projects-item {
