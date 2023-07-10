@@ -231,23 +231,21 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
-  padding-top: 120px;
 }
 
 .content-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .our-team {
   background-color: var(--background-color);
+  padding: 120px 0;
 }
 
 .team {
   gap: 24px;
   display: flex;
-  padding-bottom: 120px;
 }
 
 .list-team-info {
