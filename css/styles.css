@@ -87,7 +87,6 @@ body {
 .header-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-logo {
@@ -99,6 +98,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0;
+  display: block;
 }
 
 .header-logo-accent {
@@ -111,6 +112,8 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
 }
 
 .header-list-link:hover,
@@ -125,7 +128,6 @@ body {
 .header-socials {
   display: flex;
   gap: 40px;
-  margin-left: 332px;
 }
 
 .header-socials-link {
@@ -134,11 +136,17 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
 }
 
 .header-socials-link:hover,
 .header-socials-link:focus {
   color: #404bbf;
+}
+
+.address-list-socials {
+  margin-left: auto;
 }
 
 /*----------HERO---------*/
@@ -391,7 +399,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-bottom: 120px;
 }
 
 .portfolio-card {
